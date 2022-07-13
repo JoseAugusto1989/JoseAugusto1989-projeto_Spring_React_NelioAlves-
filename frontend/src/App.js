@@ -1,8 +1,20 @@
 import './App.css';
 
+import Header from './components/header';
+import SalesCard from './components/salesCard';
+
 const App = () => {
   return (
-    <div>Testing App...</div>
+    <>
+      <Header />
+      <main>
+        <section id='sales'>
+          <div className='dsmeta-container'>
+            <SalesCard />
+          </div>
+        </section>
+      </main>
+    </>
   )
 }
 
